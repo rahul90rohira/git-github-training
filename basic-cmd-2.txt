@@ -51,3 +51,8 @@ git clean -f [MAKE sure your actual files are in stage area.]
   
  git clean -d -f [it cleans untracked diretories]
  
+ Rename a file in remote repo:
+ git mv <src> <tar> 
+ git commit -m "rename file"
+ git push
+ 
