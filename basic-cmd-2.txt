@@ -33,6 +33,8 @@ git push
 Clean local workspace/repo/Untracked files
 git add *.java
 git add *.properties
+git clean -n [List all untracked files]
+  output>>> Would remove 1.txt
 git clean -f [MAKE sure your actual files are in stage area.]
 
   output>>
