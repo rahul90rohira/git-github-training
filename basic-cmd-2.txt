@@ -1,6 +1,15 @@
 Alias:
 git config --global alias.c checkout
 
+Remove  Alias:
+local
+vi /home/labsuser/handson-basic/.git/config  [local repo path]
+
+/home/labsuser/handson-basic
+
+Global
+~/.gitconfig [User's home directory]
+
 Amend last commit message:
 git commit --amend -m "Modified msg 1"
 
