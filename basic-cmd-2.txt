@@ -163,10 +163,10 @@ git clean -f [MAKE sure your actual files are in stage area.]
     - git push origin main [it will push to github]
   
   Single push to both repo
-    git remote set-url --add --push <Git url>
+    git remote set-url --add --push <remote name> <Git url>
     Eg
-      - git remote set-url --add --push https://gitlab.com/divang/git-hands-on.git 
-      - git remote set-url --add --push origin  https://gitlab.com/divang/git-hands-on.git 
+      - git remote set-url --add --push origin https://gitlab.com/divang/git-hands-on.git 
+      - git remote set-url --add --push origin https://github.com/github06022021/handson-basic.git
     
     - git add <filename>
     - git commit -m ""
