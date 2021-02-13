@@ -30,3 +30,19 @@ git rm <filename>
 git commit -m ""
 git push
 
+Clean local workspace/repo/Untracked files
+git add *.java
+git add *.properties
+git clean -f [MAKE sure your actual files are in stage area.]
+
+  output>>
+  Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   F1.java
+
+  Untracked files:
+    (use "git add <file>..." to include in what will be committed)
+
+          1.txt 
+  ==> git clean -f [It will only remove 1.txt]        
