@@ -47,4 +47,7 @@ git clean -f [MAKE sure your actual files are in stage area.]
     (use "git add <file>..." to include in what will be committed)
 
           1.txt 
-  ==> git clean -f [It will only remove 1.txt]        
+  ==> git clean -f [It will only remove 1.txt]  
+  
+ git clean -d -f [it cleans untracked diretories]
+ 
