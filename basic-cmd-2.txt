@@ -25,3 +25,8 @@ git add <file>.  [it is staged]
 git reset <file>
 git checkout -- <file>
 
+Remove file from repo
+git rm <filename>
+git commit -m ""
+git push
+
