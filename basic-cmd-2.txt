@@ -56,3 +56,26 @@ git clean -f [MAKE sure your actual files are in stage area.]
  git commit -m "rename file"
  git push
  
+ Restore a perticular file
+ git log 
+ >>> Pick the respective commit Id which is gone be restore to current local repo
+ 
+ git checkout <commit Id> <filename>
+ 
+   out put>>>
+   
+      Author: divang <divang.s@gmail.com>
+      labsuser@ubuntu1804:~/handson-basic$ git log -p
+      commit bd47d5f5305cd77ec9fee4fb855ae63d0c240819 (HEAD -> main, origin/main)
+      Author: divang <divang.s@gmail.com>
+      Date:   Sat Feb 13 15:59:39 2021 +0000
+
+          feature 1
+
+     diff --git a/F1.java b/F1.java
+     index e69de29..6a11bb3 100644
+   
+    git checkout 5913331a3c5bf92f07d445cda60243a3d9a2c180 F1.java 
+
+ 
+ 
