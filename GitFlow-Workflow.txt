@@ -4,8 +4,10 @@ git checkout -b develop master
 
 Creating a feature branch
 	git checkout -b myfeature develop
+	[Implement Feature, add to Stage, Commit, Push to Feature branch]
 	git checkout develop
-	git merge --no-ff myfeature
+	git merge --no-ff myfeature. [ --no-ff, to rack all merge commit]
+	[Merge conflit, resolve manually, add to Stage, Commit, Push to Feature branch]
 	git branch -d myfeature
 	git push origin develop
 
