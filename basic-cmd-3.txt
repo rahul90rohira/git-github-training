@@ -1,5 +1,16 @@
 Fork branch sync with upstream
-
+348  cd handson-basic/
+  351  mkdir fork-hands-on
+  352  cd fork-hands-on/
+  353  git clone  https://gitlab.com/divang/git-hands-on.git 
+  355  cd git-hands-on/
+  359  git remote add upstream https://github.com/github06022021/handson-basic.git [Set the upstream]
+  360  git remote -v
+  361  git fetch upstream [Fetch from upstream/orginal repo]
+  364  git pull upstream main  
+  368  git push 
+ 
+ 
 Revert
 
 Reset
