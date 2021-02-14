@@ -40,7 +40,7 @@ Reset
     448  vi F1.java [do more modification on F1.java file]
     449  git status [***Do not stage at all. Unstaged file]
     450  git log --oneline -n 5 [We want to hard reset on a commitId.]
- ***451  git reset --hard ac2db39. [It reset/clean my stage area and also unstage area.]
+ ***451  git reset --hard ac2db39. [It reset/clean my stage area and also unstage area. Untracked files are not effected by hard reset.]
     452  git status  [nothing is on stage and unsatge area]
 
   
